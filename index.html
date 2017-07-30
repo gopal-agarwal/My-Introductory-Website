@@ -1,0 +1,348 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>My Story</title>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<style>
+			body {
+				letter-spacing:2px;
+			}
+			.heading{
+				font-size: 200%;
+				font-weight: bold;
+			}
+			.myphoto {
+				background-color: #1abc9c;
+			}
+			.experience {
+				background-color: #1abc9c;
+			}
+			.about {
+				background-color:#474e5d;
+				color:#ffffff;
+			}
+			.skills {
+				background-color:#ffd9b3;
+				color:#000000;
+			}
+			.education {
+				background-color:#ffffff;
+			}
+			.sub {
+				padding-top:3px;
+				padding-bottom:1px;
+				margin-top:10px;
+				margin-bottom:10px;
+			}
+			.year {
+				font-family:Comic Sans MS;
+				font-weight:bold;
+				font-size:xx-large;
+			}
+			.desc {
+				font-family:Comic Sans MS, "Trebuchet MS", Helvetica, sans-serif;
+				font-size:small;
+				font-weight:bold;
+				line-height:8px;
+				padding-bottom:1%;
+			}
+			.container-fluid {
+				padding-top: 70px;
+				padding-bottom: 70px;
+			}
+			.femiza {
+				background-color:#1abc9c;
+				margin-left:10px;
+				margin-right:10px;
+				padding-left:6px;
+				padding-top:4px;
+				padding-bottom:4px;
+				line-height:15px;
+				border:1px solid #200080;
+			}
+			.row {
+				padding-top:3px;
+				padding-bottom:3px;
+			}
+			.navbar {
+				padding-top:15px;
+				padding-bottom:15px;
+				border:0;
+				border-radius:0;
+				margin-bottom:0;
+				font-size:12px;
+				letter-spacing:3px;
+			}
+			.navbar-nav li a:hover {
+				color: #1abc9c !important;
+			}
+			.addpadd {
+				padding-bottom:30px;
+			}
+			
+			.boxshadow {
+				position: relative;
+				box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+				#padding: 10px;
+			}
+			
+			.boxshadow img {
+				width: 100%;
+				border: 1px solid #8a4419;
+				border-style: inset;
+			}
+			
+			.boxshadow::after {
+				content: '';
+				position: absolute;
+				z-index: -1; /* hide shadow behind image */
+				box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+				width: 70%; 
+				left: 15%; /* one half of the remaining 30% */
+				height: 100px;
+				bottom: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">ME</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="#myself">WHO</a></li>
+						<li><a href="#About">ABOUT</a></li>
+						<li><a href="#Skills">SKILLS</a></li>
+						<li><a href="#Education">EDUCATION</a></li>
+						<li><a href="#Experience">EXPERIENCE</a></li>
+						<li><a href="#Projects">PROJECTS</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container-fluid text-center myphoto" id="myself">
+			<h3>Who Am I?</h3>
+			<img src = "checkImg.jpg" class="img-circle" alt="My-Photo">
+			<h3>I'm an Developer</h3>
+		</div>
+		<div class="container-fluid text-center about" id="About">
+			<h2 class="heading">About ME</h2>
+			<div class="row">
+				<img src="underline7.png" width="60%" style="margin-bottom:20px;">
+			</div>
+			<p>I'm a Detail-oriented student with strong technical skills and with the ability to learn concepts quickly.
+				I am Hard-working and looking to apply my education and experience to a job .
+				I am Good at communication skills.
+				I am a person with Reasoning ability and Analytical skills.
+				I am a Keen observer, Quick learner and a Multi tasker.
+		</p>
+		</div>
+		<div class="container-fluid text-center skills" id ="Skills">
+			<h2 class="heading">Skills</h2>
+			<img src="underline7.png" width="60%" style="margin-bottom:20px;">
+			<div class="row">
+				<div class="col-xs-2">
+				</div>
+				<div class="col-xs-8 col-sm-1 sub bg-success" style="padding-top:4px;border-radius:10px;border-style:outset;">
+					<p><strong>C</strong></p>
+				</div>
+				<div class="col-xs-12 col-sm-8 sub" style="padding-top:7px;">
+					<div class="progress">
+					  <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar"
+							aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						90%
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2">
+				</div>
+				<div class="col-xs-8 col-sm-1 sub bg-info" style="padding-top:4px;border-radius:10px;border-style:outset;">
+					<p><strong>C++</strong></p>
+				</div>
+				<div class="col-xs-12 col-sm-8 sub" style="padding-top:7px;">
+					<div class="progress">
+					  <div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar"
+							aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						85%
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2">
+				</div>
+				<div class="col-xs-8 col-sm-1 sub bg-warning" style="padding-top:4px;border-radius:10px;border-style:outset;">
+					<p><strong>Java</strong></p>
+				</div>
+				<div class="col-xs-12 col-sm-8 sub" style="padding-top:7px;">
+					<div class="progress">
+					  <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar"
+							aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+						60%
+					  </div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2">
+				</div>
+				<div class="col-xs-8 col-sm-1 sub bg-danger" style="padding-top:4px;border-radius:10px;border-style:outset;">
+					<p><strong>Python</strong></p>
+				</div>
+				<div class="col-xs-12 col-sm-8 sub" style="padding-top:7px;">
+					<div class="progress">
+					  <div class="progress-bar progress-bar-striped progress-bar-danger active" role="progressbar"
+							aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width:88%">
+						88%
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid text-center education" id="Education">
+			<h2 class="heading">EDUCATION</h2>
+			<img class="addpadd" src="underline7.png" width="60%" style="margin-bottom:20px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2">
+					</div>
+					<div class="col-xs-12 col-sm-3 text-right year">
+						2013
+					</div>
+					<div class="col-xs-1">
+						<img src="badge2.jpg">
+					</div>
+					<div class="col-xs-12 col-sm-3 text-left desc">
+						<p>10TH ICSE</p>
+						<p>ST. ANN'S DAY</p>
+						<p>SCHOOL</p>
+						<p>ATTAINED - 90.2 %</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-2">
+					</div>
+					<div class="col-xs-3 text-right">
+					</div>
+					<div class="col-xs-1">
+						<img style="padding-bottom:15%;" src="line3.png" width="100%">
+					</div>
+					<div class="col-xs-3 text-left">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-2">
+					</div>
+					<div class="col-xs-12 col-sm-3 text-right desc">
+						<p>12TH AISSCE(CBSE)</p>
+						<p>SUDHIR MEMORIAL</p>
+						<p> INSTITUTE</p>
+						<p>ATTAINED - 88.2 %</p>
+					</div>
+					<div class="col-xs-1">
+						<img src="badge2.jpg">
+					</div>
+					<div class="col-xs-12 col-sm-3 text-left year">
+						2015
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-2">
+					</div>
+					<div class="col-xs-3 text-right">
+					</div>
+					<div class="col-xs-1">
+						<img style="padding-bottom:15%;" src="line3.png" width="100%">
+					</div>
+					<div class="col-xs-3 text-left">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-2">
+					</div>
+					<div class="col-xs-12 col-sm-3 text-right">
+						<p class="year" style="line-height:10px;">2017</p>
+						<p>(present)</p>
+					</div>
+					<div class="col-xs-1">
+						<img src="badge2.jpg">
+					</div>
+					<div class="col-xs-12 col-sm-3 text-left desc">
+						<p>B.E(Dept of IT)</p>
+						<p>Jadavpur University</p>
+						<p>CGPA - 9.6283</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid text-center experience" id="Experience">
+			<h2 class="heading">EXPERIENCE</h2>
+			<img src="underline7.png" width="60%" style="margin-bottom:20px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-3 col-sm-5">
+					</div>
+					<div class="col-xs-6 col-sm-2">
+						<div class="img-thumbnail boxshadow" style="border-radius:10px;border:2px inset black;">
+							<img src="femiza_logo.png" class="img-responsive img-thumbnail" style="border-style:outset;">
+							<h3><strong>Femiza</strong></h3>
+							<p class="text-left bg-info femiza boxshadow" >Working as an intern.</p>
+							<p class="text-left bg-info femiza boxshadow">As a python-Developer.</p>
+							<p class="text-left bg-info femiza boxshadow">Machine Learning and Image-Processing.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid text-center bg-info" id="Projects">
+			<h2 class="heading">PROJECTS</h2>
+			<img class ="addpadd" src="underline7.png" width="60%" style="margin-bottom:20px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-3 col-sm-3">
+					</div>
+					<div class="col-xs-6 col-sm-2 addpadd">
+						<div class="img-thumbnail boxshadow" style="border-radius:10px;border:2px inset black;">
+							<img src="objectDetect.jpg" class="img-responsive img-thumbnail" style="border-style:outset;">
+							<h4><strong>Object-Detector</strong></h4>
+							<p class="text-left bg-info femiza boxshadow" >Python and OpenCV.</p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-2 addpadd">
+						<div class="img-thumbnail boxshadow" style="border-radius:10px;border:2px inset black;">
+							<img src="Search.jpg" class="img-responsive img-thumbnail" style="border-style:outset;">
+							<h4><strong>Image Search Engine</strong></h4>
+							<p class="text-left bg-info femiza boxshadow" >OpenCV using Content-Based Image Retrieval.</p>
+						</div>
+					</div>
+					<div class="col-xs-6 col-sm-2 addpadd">
+						<div class="img-thumbnail boxshadow" style="border-radius:10px;border:2px inset black;">
+							<img src="UniversityResults.png" class="img-responsive img-thumbnail" style="border-style:outset;">
+							<h4><strong>University Score Viewer</strong></h4>
+							<p class="text-left bg-info femiza boxshadow" >Using python along with lxml and Xpath.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
